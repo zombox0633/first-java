@@ -1,7 +1,12 @@
 package c.b.a;
 
 public class FirstClass {
+    /* class เป็น global */
+
     public static void main(String[] args) {
+    /* method เป็น local */
+        //idea64 . คือการเข้า intellij
+
         System.out.println("shift +  f6 ทำการ rename");
         System.out.println("ctrl + alt + O เอา import ที่ไม่ import ที่ไม่ได้ใช้ออก");
         System.out.println("shift + shift ค้นหาไฟล์");
